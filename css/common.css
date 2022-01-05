@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+@font-face {
+    font-family: "SynergyDisplay";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/SynergyDisplayLight.woff") format("woff");
+}
+@font-face {
+    font-family: "SynergyDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/SynergyDisplayRegular.woff") format("woff");
+}
+@font-face {
+    font-family: "SynergyDisplay";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/SynergyDisplayBold.woff") format("woff");
+}
+
+body{
+    font-family: "SynergyDisplay";
+    font-weight: 400;
+    color: #202121;
+    letter-spacing: -0.02em;
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.blind{
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+h2.title{
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+
+
+
+.sc05_my h2, .sc05_my .inner .start::before, .sc05_my .inner .point01::before,
+.sc05_my .inner .point02::before, .sc05_my .inner::after{
+    background-image: url(../img/sc05.png);
+    background-repeat: no-repeat;
+    background-size: 370px 270px;
+}
